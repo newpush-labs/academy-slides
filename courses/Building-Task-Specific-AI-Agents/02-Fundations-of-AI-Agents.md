@@ -1,6 +1,6 @@
 ---
-title: Building Task-Specific AI Agents
-subtitle: University Course Session (90 Minutes)
+title: Building AI Agents Through Hands-On Examples
+subtitle: University Course Session 2
 theme: ../../themes/np-slides-theme
 background: https://source.unsplash.com/1600x900/?technology,ai
 transition: slide-left

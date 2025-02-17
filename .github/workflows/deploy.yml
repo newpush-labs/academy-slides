@@ -31,11 +31,10 @@ jobs:
       - name: Install dependencies
         run: nci
 
-      - name: Build
-        run: nr build --out /tmp/dist/courses/ai-agent-course/ --base /${{github.event.repository.name}}/courses/ai-agent-course/ ./courses/ai-agent-course/*.md
-      
-      - name: Build
-        run: nr build --out /tmp/dist/courses/programming-bitcoin/ --base /${{github.event.repository.name}}/courses/programming-bitcoin/ ./courses/programming-bitcoin/*.md
+      - name: Build the slides
+        run: |
+          chmod +x ./scripts/build-slides.sh
+          ./scripts/build-slides.sh
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
