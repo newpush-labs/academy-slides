@@ -12,5 +12,5 @@ find ./courses -name "*.md" -print0 | while IFS= read -r -d $'\0' file; do
   base_path="/academy-slides/courses/$relative_dir/$base_name"
 
   # Build the slides.
-  echo nr build --out "$out_dir" --base "$base_path" "$file"
+  nr build --out "$out_dir" --base "$base_path" "$file"
 done
