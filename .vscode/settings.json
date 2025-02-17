@@ -3,4 +3,63 @@
         "courses/**/*.md"
     ],
     "slidev.port": 3030,
+
+    // General Editor Settings
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": true,
+    "files.autoSave": "onFocusChange",
+
+    // Apply automatic code actions (like ESLint fixes) on save
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "always",
+        "source.fixAll.eslint": "always"
+    },
+
+    // Exclude common folders from the file explorer and search
+    "files.exclude": {
+        "**/node_modules": true,
+        "**/.git": true,
+        "**/.DS_Store": true,
+        "**/dist": true,
+        "**/build": true,
+        "**/out": true
+    },
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/dist": true,
+        "**/build": true,
+        "**/out": true
+    },
+
+    // ESLint and Prettier configuration
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+        "vue",
+        "markdown"
+    ],
+    "prettier.requireConfig": true,
+
+    // Language-specific overrides
+    "[markdown]": {
+        "editor.wordWrap": "on",
+        "editor.quickSuggestions": {
+            "comments": "off",
+            "strings": "off",
+            "other": "off"
+        }
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+
+    // Use the project’s TypeScript version, if available
+    "typescript.tsdk": "node_modules/typescript/lib"
 }
+    
