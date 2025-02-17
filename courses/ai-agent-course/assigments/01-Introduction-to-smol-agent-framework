@@ -1,0 +1,64 @@
+# Assignment 1: Introduction to AI Agents & smol Framework
+
+## Learning Objectives
+By completing this assignment, you will:
+- Set up essential accounts for AI development
+- Learn the fundamentals of AI agents through hands-on experience
+- Build your first AI agent using the smol framework
+
+## Tasks
+
+### 1. Account Setup (10 points)
+Create accounts on the following platforms:
+- [Hugging Face](https://huggingface.co/join)
+- [OpenAI](https://platform.openai.com/signup)
+- [Anthropic](https://console.anthropic.com/signup)
+- [Google AI (Gemini)](https://makersuite.google.com/app/apikey)
+
+For each platform, save your API keys securely - you'll need them later.
+
+### 2. Complete Hugging Face Course (40 points)
+1. Enroll in the [Hugging Face Agents Course Unit 1](https://huggingface.co/learn/agents-course/unit1/introduction)
+2. Complete all sections in Unit 1
+3. Take screenshots of your completion status
+
+### 3. Build Your First Agent (50 points)
+Create a simple but creative AI agent using the smol framework. Your agent should:
+
+- Implement at least one custom tool
+- Use chain-of-thought reasoning
+- Solve a specific, well-defined problem
+
+Example project ideas:
+- A recipe converter that adjusts ingredients based on serving size
+- A coding assistant that explains and refactors code
+- A travel planner that suggests itineraries based on constraints
+
+#### Submission Requirements
+1. Source code of your agent
+2. README.md explaining:
+   - What your agent does
+   - How to run it
+   - Example inputs and outputs
+3. Brief reflection on challenges faced and how you overcame them
+
+## Evaluation Criteria
+- Account setup with proof (10%)
+- Course completion with reflection (40%)
+- Agent implementation:
+  - Functionality (20%)
+  - Code quality (15%)
+  - Creativity (15%)
+
+## Submission Instructions
+Submit your assignment as a git repository on github containing:
+- Course completion proof and reflection
+- Your agent's code repository
+
+## Due Date
+Two weeks from assignment date
+
+## Resources
+- [smol Framework Documentation](https://github.com/huggingface/smolagents)
+- [Chain of Thought Prompting Guide](https://www.promptingguide.ai/techniques/cot)
+- [Python Environment Setup Guide](https://docs.python.org/3/tutorial/venv.html)
