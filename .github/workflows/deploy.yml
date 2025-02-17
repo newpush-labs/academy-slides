@@ -32,10 +32,10 @@ jobs:
         run: nci
 
       - name: Build
-        run: nr build --out /tmp/dist --base /${{github.event.repository.name}}/courses/ai-agent-course/ ./courses/ai-agent-course/*.md
+        run: nr build --out /tmp/dist/courses/ai-agent-course/ --base /${{github.event.repository.name}}/courses/ai-agent-course/ ./courses/ai-agent-course/*.md
       
       - name: Build
-        run: nr build --out /tmp/dist --base /${{github.event.repository.name}}/courses/programming-bitcoin/ ./courses/programming-bitcoin/*.md
+        run: nr build --out /tmp/dist/courses/programming-bitcoin/ --base /${{github.event.repository.name}}/courses/programming-bitcoin/ ./courses/programming-bitcoin/*.md
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
