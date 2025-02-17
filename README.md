@@ -1,6 +1,17 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# Slides 
 
-These are the academic slides of NewPush Labs.
+## Building AI Agents Through Hands-On Examples
+
+[Session #2: Fundations-of-AI-Agents](https://newpush-labs.github.io/academy-slides/courses/Building-Task-Specific-AI-Agents/02-Fundations-of-AI-Agents/)
+
+[Session #3: Agent-Architecture-and-Design](https://newpush-labs.github.io/academy-slides/courses/Building-Task-Specific-AI-Agents/03-Agent-Architecture-and-Design/)
+
+## Building on the Bitcoin Blockchain
+[Session #3: Fundations-of-Bitcoin-Scripting](https://newpush-labs.github.io/academy-slides/courses/Building-on-the-Bitcoin-Blockchain/02-Fundations-of-Bitcoin-Scripting/)
+
+# Welcome to NewPush Academy Slides
+
+We are using [Slidev](https://github.com/slidevjs/slidev)!
 
 To start the slide show:
 
