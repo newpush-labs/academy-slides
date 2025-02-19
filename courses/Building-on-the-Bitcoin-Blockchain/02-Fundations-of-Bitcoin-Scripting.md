@@ -304,7 +304,7 @@ The unlocking script doesn't contain any operations itself - it just provides th
 When teaching this concept, it's helpful to emphasize how this mirrors physical security - like having both a key (signature) and ID (public key) to access a safety deposit box.
 -->
 
---- 
+---
 
 # Detailed Unlocking Script (cnt.)
 
@@ -684,7 +684,7 @@ Speaker Notes:
 - Continue exploring, experimenting, and innovating in the world of Bitcoin smart contracts.
 - Happy scripting and safe transactions!
 
---- 
+---
 
 # Links
 
