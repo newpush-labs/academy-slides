@@ -23,6 +23,7 @@ Our CI pipeline monitors the repository and automatically deploys any new or upd
 ## Currently Online Slides
 
 ### Building AI Agents Through Hands-On Examples
+- [Session #1: Introduction-to-Modern-AI-Models](https://newpush-labs.github.io/academy-slides/courses/Building-Task-Specific-AI-Agents/01-Introduction-to-Modern-AI-Models/)
 - [Session #2: Fundations-of-AI-Agents](https://newpush-labs.github.io/academy-slides/courses/Building-Task-Specific-AI-Agents/02-Fundations-of-AI-Agents/)
 - [Session #3: Agent-Architecture-and-Design](https://newpush-labs.github.io/academy-slides/courses/Building-Task-Specific-AI-Agents/03-Agent-Architecture-and-Design/)
 
