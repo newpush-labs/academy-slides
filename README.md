@@ -30,6 +30,7 @@ Our CI pipeline monitors the repository and automatically deploys any new or upd
 ### Building on the Bitcoin Blockchain
 - [Session #1: Introduction-to-Bitcoin-Smart-Contracts](https://newpush-labs.github.io/academy-slides/courses/Building-on-the-Bitcoin-Blockchain/01-Introduction-to-Bitcoin-Smart-Contracts/)
 - [Session #2: Fundations-of-Bitcoin-Scripting](https://newpush-labs.github.io/academy-slides/courses/Building-on-the-Bitcoin-Blockchain/02-Fundations-of-Bitcoin-Scripting/)
+- [Session #3: Advanced-Bitcoin-Scripting](https://newpush-labs.github.io/academy-slides/courses/Building-on-the-Bitcoin-Blockchain/03-Advanced-Bitcoin-Scripting/)
 
 ## Getting Started
 1. 🖥️ Clone the Repository: If you’re contributing, start by cloning our GitHub repository.
