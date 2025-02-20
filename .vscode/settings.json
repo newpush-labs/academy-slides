@@ -1,6 +1,7 @@
 {
     "slidev.include": [
-        "courses/**/*.md"
+        "courses/**/*.md",
+        "themes/np-slides-theme/example.md"
     ],
     "slidev.port": 3030,
 
