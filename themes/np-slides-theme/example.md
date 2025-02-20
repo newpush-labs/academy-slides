@@ -1,95 +1,68 @@
 ---
 theme: ./
 layout: cover
-background: https://images.unsplash.com/photo-1530819568329-97653eafbbfa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2092&q=80
-themeConfig:
-  primary: '#4d7534'
+background: #1C63B7;
 ---
 
-# Presentation title
-
-Presentation subtitle
-
----
-
-# Slide Title
-
-Slide Subtitle
-
-* Slide bullet text
-  * Slide bullet text
-  * Slide bullet text
-* Slide bullet text
-* Slide bullet text
+# Presentation Title
+Subtitle or additional information
 
 ---
-layout: image-right
-image: https://source.unsplash.com/collection/94734566/1920x1080
+layout: intro
 ---
 
-# Slide Title
+# Introduction
+Presenter Name
+Job Title
 
-Colons can be used to align columns.
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+Company or Organization
 
 ---
-layout: section
+layout: roadmap
 ---
 
-# Section Title
+- Launch mobile app with core features and offline support
+- Implement AI-powered recommendation engine to enhance user experience
+- Expand platform integrations with major cloud providers (AWS, Azure, GCP)
+- Release enterprise version with advanced security features and SSO support
+- Develop real-time collaboration tools with multi-user editing capabilities
+
+::title::
+
+# PRODUCT ROADMAP 2025
 
 ---
 layout: statement
 ---
 
-# Statement
+# Our Mission
 
----
-layout: fact
----
-
-# 100%
-Fact information
+To innovate and lead in the tech industry by providing cutting-edge solutions that empower businesses and individuals.
 
 ---
 layout: quote
 ---
 
-# "Notable quote"
-Attribution
+> "The best way to predict the future is to invent it." - Alan Kay
+
+This was a qoute.
 
 ---
-layout: image-left
-image: https://source.unsplash.com/collection/94734566/1920x1080
+layout: section
 ---
 
-# Code
+# Key Milestones  
 
-```ts {all|2|1-6|all}
-interface User {
-  id: number
-  firstName: string
-  lastName: string
-  role: string
-}
-
-function updateUser(id: number, update: Partial<User>) {
-  const user = getUser(id)
-  const newUser = { ...user, ...update }
-  saveUser(id, newUser)
-}
-```
+- Q1 2025: Launch mobile app
+- Q2 2025: Implement AI recommendations
+- Q3 2025: Expand integrations
+- Q4 2025: Release enterprise version
 
 ---
-layout: center
-class: "text-center"
+layout: fact
 ---
 
-# Learn More
+# 1M+
+Active Users Worldwide
 
-[Documentations](https://sli.dev) / [GitHub Repo](https://github.com/slidevjs/slidev)
+Supporting text or additional context about this impressive statistic
