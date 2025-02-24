@@ -4,8 +4,7 @@ subtitle: Agno Agent Framework - A Deep Dive
 theme: ../../themes/np-slides-theme
 transition: slide-left
 mdc: true
-layout: cover
-background: "#1C63B7"
+layout: intro
 ---
 # Building Task-Specific AI Agents
 
