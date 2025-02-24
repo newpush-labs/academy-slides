@@ -47,6 +47,16 @@ Our CI pipeline monitors the repository and automatically deploys any new or upd
 3. 📬 Submit a Pull Request: Once your changes are ready, submit a PR for review.
 4. 🚀 CI Deployment: After approval, your changes will be automatically deployed.
 
+## NewPush Labs - Academic Theme
+
+We use a custom theme for our slides to ensure a consistent and professional look across all presentations. The theme is designed to be clean, modern, and easy to read, with a focus on clarity and accessibility.
+
+### Example
+
+To see an example of how the theme is applied, check out our [example slides](https://newpush-labs.github.io/academy-slides/theme-demo/). This demonstrates the various elements and styles used in our theme, including headings, lists, code blocks, and more.
+
+
+
 ## Questions or Feedback?
 
 If you have any questions, suggestions, or need help getting started, please reach out to the NewPush Academy team. 💬
