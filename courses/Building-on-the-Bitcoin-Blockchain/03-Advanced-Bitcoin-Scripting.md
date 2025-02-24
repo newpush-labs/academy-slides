@@ -41,13 +41,13 @@ Today's session focuses on practical implementations. We'll not just learn the t
 **Purpose:** Lock funds until a specific block height or timestamp
 
 **Script Example:**
-```bitcoin-script
+```python
 <timestamp/blockheight> OP_CHECKLOCKTIMEVERIFY OP_DROP
 OP_DUP OP_HASH160 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG
 ```
 
 **Real Implementation:**
-```bitcoin-script
+```python
 // Lock funds until block 780000
 780000 OP_CHECKLOCKTIMEVERIFY OP_DROP
 OP_DUP OP_HASH160 a23b22f70239e34c4c95a111c0f1c0d4f45e297a OP_EQUALVERIFY OP_CHECKSIG
@@ -73,13 +73,13 @@ Common use cases include trust-less escrow services, inheritance planning, and t
 **Purpose:** Lock funds for a relative time period after UTXO creation
 
 **Script Example:**
-```bitcoin-script
+```python
 <relative_blocks> OP_CHECKSEQUENCEVERIFY OP_DROP
 OP_DUP OP_HASH160 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG
 ```
 
 **Practical Implementation:**
-```bitcoin-script
+```python
 // Lock for 144 blocks (~1 day) after UTXO creation
 144 OP_CHECKSEQUENCEVERIFY OP_DROP
 OP_DUP OP_HASH160 89abcdef0123456789abcdef01234567 OP_EQUALVERIFY OP_CHECKSIG
@@ -101,13 +101,13 @@ The relative timelock can be specified in blocks or time units. For security-cri
 # Hash-Locks and Pre-Images
 
 **Basic Hash-Lock Script:**
-```bitcoin-script
+```python
 OP_HASH160 <hash_of_secret> OP_EQUALVERIFY
 OP_DUP OP_HASH160 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG
 ```
 
 **Complete HTLC Example:**
-```bitcoin-script
+```python
 OP_IF
     OP_HASH160 <hash_of_secret> OP_EQUALVERIFY
     <recipient_pubkey> OP_CHECKSIG
@@ -132,7 +132,7 @@ HTLCs (Hashed Time-Locked Contracts) combine hash-locks with time-locks, creatin
 # Atomic Swap Implementation
 
 **Alice's Contract:**
-```bitcoin-script
+```python
 OP_IF
     // Hash-Lock Branch
     OP_HASH160 <hash_of_secret> OP_EQUALVERIFY
@@ -145,7 +145,7 @@ OP_ENDIF
 ```
 
 **Bob's Contract:**
-```bitcoin-script
+```python
 OP_IF
     // Hash-Lock Branch
     OP_HASH160 <same_hash> OP_EQUALVERIFY
@@ -174,7 +174,7 @@ The timeouts are staggered (24h vs 12h) to ensure Alice can claim her coins if B
 # Pay-to-Script-Hash (P2SH) Deep Dive
 
 **Standard P2SH Structure:**
-```bitcoin-script
+```python
 // Redeem Script (stored off-chain)
 2 <pubkey1> <pubkey2> <pubkey3> 3 OP_CHECKMULTISIG
 
@@ -203,7 +203,7 @@ The redeem script is only revealed when spending, allowing complex conditions to
 # P2SH Practical Example: 2-of-3 Multisig
 
 **Complete Implementation:**
-```bitcoin-script
+```python
 // Redeem Script
 OP_2
 0x02a8d02a2d6e84dcd815c4bd7e47a8215b48e2c3e8338d9ce845325e7f87527a4d
@@ -217,7 +217,7 @@ OP_HASH160 89abcdef0123456789abcdef01234567 OP_EQUAL
 ```
 
 **Spending Example:**
-```bitcoin-script
+```python
 // Unlocking Script
 OP_0  // Due to CHECKMULTISIG bug
 <sig1>
@@ -236,7 +236,7 @@ When spending, signatures must be provided in the same order as their correspond
 # Witness Programs: P2WPKH and P2WSH
 
 **P2WPKH Structure:**
-```bitcoin-script
+```python
 // Native SegWit Output
 0 <20-byte-key-hash>
 
@@ -245,7 +245,7 @@ When spending, signatures must be provided in the same order as their correspond
 ```
 
 **P2WSH Structure:**
-```bitcoin-script
+```python
 // Native SegWit Output
 0 <32-byte-script-hash>
 
@@ -269,14 +269,14 @@ The '0' version byte indicates native SegWit. Future versions may enable new scr
 # Script Optimization Techniques
 
 **Before Optimization:**
-```bitcoin-script
+```python
 OP_DUP OP_DUP OP_HASH160 <pubKeyHash>
 OP_EQUALVERIFY OP_HASH160 <pubKeyHash2>
 OP_EQUALVERIFY OP_CHECKSIG
 ```
 
 **After Optimization:**
-```bitcoin-script
+```python
 OP_DUP OP_HASH160 <pubKeyHash>
 OP_EQUALVERIFY OP_CHECKSIG
 ```
@@ -350,7 +350,7 @@ Start with proven patterns and modify carefully. Always include timeout-based re
 # Advanced Script Patterns
 
 **Covenant Example:**
-```bitcoin-script
+```python
 // Restrict where funds can be spent
 OP_DUP OP_HASH160 <pubKeyHash>
 OP_EQUALVERIFY OP_CHECKSIG
@@ -358,7 +358,7 @@ OP_RETURN <allowed_destination>
 ```
 
 **Recovery Mechanism:**
-```bitcoin-script
+```python
 OP_IF
     // Normal spending path
     <timeout> OP_CHECKLOCKTIMEVERIFY OP_DROP

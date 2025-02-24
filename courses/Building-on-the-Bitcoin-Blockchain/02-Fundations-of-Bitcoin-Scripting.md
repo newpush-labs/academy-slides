@@ -17,7 +17,7 @@ Welcome to our second session on Bitcoin Script. Today we'll explore how Bitcoin
 -->
 
 ---
-
+  
 # Introduction to Bitcoin Script
 
 - **Definition:**  
