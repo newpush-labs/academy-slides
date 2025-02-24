@@ -386,7 +386,7 @@ Industry applications are expanding beyond traditional use cases, creating new o
 -->
 
 ---
-q
+
 # Thank You!
 
 - Thank you for participating in this introduction to modern AI models
