@@ -17,3 +17,6 @@ done
 
 # Build the slides for the home page.
 nr build --out "/tmp/dist/courses/home" --base "/academy-slides/courses/home" "./courses/home.md"
+
+# Build the example slides from the themes/np-slides-theme/example.md file.
+nr build --out "/tmp/dist/theme-demo" --base "/academy-slides/theme-demo" "./themes/np-slides-theme/example.md"
