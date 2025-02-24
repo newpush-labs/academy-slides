@@ -22,11 +22,20 @@ Our CI pipeline monitors the repository and automatically deploys any new or upd
 
 ## Currently Online Slides
 
+### Courses Overview
+- [Overview](https://newpush-labs.github.io/academy-slides/courses/home/)
+
 ### Building AI Agents Through Hands-On Examples
+
 - [Session #1: Introduction-to-Modern-AI-Models](https://newpush-labs.github.io/academy-slides/courses/Building-Task-Specific-AI-Agents/01-Introduction-to-Modern-AI-Models/)
 - [Session #2: Fundations-of-AI-Agents](https://newpush-labs.github.io/academy-slides/courses/Building-Task-Specific-AI-Agents/02-Fundations-of-AI-Agents/)
 - [Session #3: Agent-Architecture-and-Design](https://newpush-labs.github.io/academy-slides/courses/Building-Task-Specific-AI-Agents/03-Agent-Architecture-and-Design/)
 
+#### Extras:
+
+- [Agent Frameworks - Agno](https://newpush-labs.github.io/academy-slides/courses/Building-Task-Specific-AI-Agents/AI-Agent-Frameworks-Agno/)
+- [Interactive Tokens](https://newpush-labs.github.io/academy-slides/courses/Building-Task-Specific-AI-Agents/interactive-tokens/)
+  
 ### Building on the Bitcoin Blockchain
 - [Session #1: Introduction-to-Bitcoin-Smart-Contracts](https://newpush-labs.github.io/academy-slides/courses/Building-on-the-Bitcoin-Blockchain/01-Introduction-to-Bitcoin-Smart-Contracts/)
 - [Session #2: Fundations-of-Bitcoin-Scripting](https://newpush-labs.github.io/academy-slides/courses/Building-on-the-Bitcoin-Blockchain/02-Fundations-of-Bitcoin-Scripting/)
