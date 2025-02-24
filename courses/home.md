@@ -1,12 +1,13 @@
 ---
 theme: ../themes/np-slides-theme
 title: Academy Courses
-layout: cover
+layout: intro
 ---
 
 # Academy Courses
 
 Your journey into Blockchain and AI Development
+
 
 ---
 layout: section
