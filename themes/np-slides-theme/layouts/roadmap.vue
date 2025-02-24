@@ -19,7 +19,7 @@ const nav = useNav()
       <!-- Right column with content -->
       <div class="col-span-2 relative">
         <!-- Logo -->
-        <img src="/images/np_logo_labs.png" class="logo absolute" />
+        <img src="../images/np_logo_labs.png" class="logo absolute" />
         
         <!-- Main content -->
         <div class="main-content">
