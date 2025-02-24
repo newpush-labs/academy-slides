@@ -380,15 +380,15 @@ These patterns can be combined to create complex yet secure contract conditions.
 
 # Future Developments
 
-- **Taproot/Schnorr:**
-  - Enhanced privacy
-  - Reduced script size
-  - More efficient multisig
+**Taproot/Schnorr:**
+- Enhanced privacy
+- Reduced script size
+- More efficient multisig
 
-- **New BIPs:**
-  - Cross-input script sharing
-  - Improved covenant capabilities
-  - Enhanced scripting features
+**New BIPs:**
+- Cross-input script sharing
+- Improved covenant capabilities
+- Enhanced scripting features
 
 <!--
 Stay informed about upcoming Bitcoin improvements. New features often enable more efficient or powerful scripting capabilities.
