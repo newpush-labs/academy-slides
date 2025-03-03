@@ -30,7 +30,8 @@ Our CI pipeline monitors the repository and automatically deploys any new or upd
 - [Session #1: Introduction-to-Modern-AI-Models](https://newpush-labs.github.io/academy-slides/courses/Building-Task-Specific-AI-Agents/01-Introduction-to-Modern-AI-Models/)
 - [Session #2: Fundations-of-AI-Agents](https://newpush-labs.github.io/academy-slides/courses/Building-Task-Specific-AI-Agents/02-Fundations-of-AI-Agents/)
 - [Session #3: Agent-Architecture-and-Design](https://newpush-labs.github.io/academy-slides/courses/Building-Task-Specific-AI-Agents/03-Agent-Architecture-and-Design/)
-
+- [Session #3 - Hands On: Creating AI Agents with smolagents](https://newpush-labs.github.io/academy-slides/courses/Building-Task-Specific-AI-Agents/03-Hands-On-Creating-AI-Agents-with-smolagents/)
+  
 #### Extras:
 
 - [Agent Frameworks - Agno](https://newpush-labs.github.io/academy-slides/courses/Building-Task-Specific-AI-Agents/AI-Agent-Frameworks-Agno/)
